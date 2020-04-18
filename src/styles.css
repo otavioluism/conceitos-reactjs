@@ -6,16 +6,34 @@
 
 body {
   font-size: 14px;
+  background: #F6DD90;
+}
+
+body header{ 
+  margin: 10px 0;
+  text-align: center;
+  font: 20px sans-serif;
+
 }
 
 div {
-  width: 100%;
   margin: 20px;
 }
 
+
 div li {
   display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 2px;
+  border-style: outset;
+  border-color: rgb(177, 65, 65);
+  font:18px sans-serif;
   align-items: center;
+}
+
+div li:hover {
+  background: #FAEBDA;
 }
 
 div li + li {
@@ -23,17 +41,38 @@ div li + li {
 }
 
 button {
-  background: #7159c1;
+  background: rgb(71, 133, 71);
+  border-radius: 8px;
   color: #fff;
   border: 0;
-  padding: 10px 15px;
+  padding: 10px 10px;
   cursor: pointer;
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover{ 
+  background: rgb(101, 191, 219);
+  color: rgb(58, 52, 52);
 }
 
 div li button {
-  margin: 0 15px;
-  background: #ca4949;
+  margin: 5px 0 5px 0;
+  background: #ca4949; 
+}
+
+div li button img{ 
+  width: 30px; 
+  height: 30px;
+  margin-left: 10px;
+}
+
+div button img{ 
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
 }
