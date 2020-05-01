@@ -45,4 +45,6 @@ Uma Api que realiza a conexão da aplicação Back-end com a Front-end
 
 > CORS (Cross-Origin Resource Sharing) é uma especificação do W3C que, quando implementado pelo navegador, permite que um site acesse recursos de outro site mesmo estando em domínios diferentes.
 
-
+### Rodar Aplicação 
+Ir até a pasta da aplicação e no terminal rodar: 
+yarn start 
