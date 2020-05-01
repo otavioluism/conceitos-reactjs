@@ -48,3 +48,6 @@ Uma Api que realiza a conexão da aplicação Back-end com a Front-end
 ### Rodar Aplicação 
 Ir até a pasta da aplicação e no terminal rodar: 
 yarn start 
+
+### Acessar o Back-end da aplicação 
+acesse: <a href=https://github.com/otavioluism/conceitos-nodejs>Conceitos-nodejs</a>
